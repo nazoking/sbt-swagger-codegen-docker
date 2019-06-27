@@ -1,3 +1,3 @@
 push:
-	docker build --tag=nazoking/sbt-swagger-codegen:latest .
-	docker push nazoking/sbt-swagger-codegen:latest
+	docker build --tag=sbt-swagger-codegen-docker:latest .
+	docker push sbt-swagger-codegen-docker:latest
