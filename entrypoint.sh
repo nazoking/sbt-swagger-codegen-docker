@@ -6,4 +6,5 @@ if [ -n "$1" ];then
 fi
 
 cd /opt/workspace
-sbt swaggerModelCodeGen
+sbt compile
+find target/scala-2.12/src_managed/main/swagger/ -type f -exec cat {} \;
